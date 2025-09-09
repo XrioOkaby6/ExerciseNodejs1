@@ -106,7 +106,7 @@ const server = http.createServer(async (req,res)=>{
 
   // rota errada
   res.writeHead(404,{"Content-Type":"application/json"})
-  res.end(JSON.stringify({msg:"rota errada parça"}))
+  res.end(JSON.stringify({msg:"rota errada"}))
 })
 
 server.listen(3000,()=>{
